@@ -1,0 +1,9 @@
+GET /buy-transactions/search
+GET /buy-transactions/search?startDate=2024-04-01&endDate=2024-04-30
+GET /buy-transactions/search?orderId=CUNII
+GET /buy-transactions/search?categoryId=02
+GET /buy-transactions/search?categoryId=02&subCategoryId=0204
+GET /buy-transactions/search?minPrice=20&maxPrice=50
+GET /buy-transactions/search?grade=A
+GET /buy-transactions/search?startDate=2024-04-01&endDate=2024-04-30&categoryId=02&grade=A&minPrice=10
+GET /buy-transactions/search?orderId=CUNIIPRO20240422125506
