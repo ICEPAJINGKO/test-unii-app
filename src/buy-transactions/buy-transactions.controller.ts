@@ -9,6 +9,8 @@ export class BuyTransactionsController {
     ) { }
 
     /**
+     * Query parameters ทั้งหมดเป็น optional และใช้ร่วมกันได้
+     *
      * GET /buy-transactions/search
      *
      * Query parameters (all optional, combinable):
