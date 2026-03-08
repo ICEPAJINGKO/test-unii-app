@@ -8,27 +8,6 @@ npm run start:dev
 
 ---
 
-## API: GET /buy-transactions/search
-
-Query parameters ทั้งหมดเป็น optional และใช้ร่วมกันได้
-
-/**
- * GET /buy-transactions/search
- *
- * Query parameters (all optional, combinable):
- *  - startDate        YYYY-MM-DD   (inclusive)
- *  - endDate          YYYY-MM-DD   (inclusive)
- *  - categoryId       exact match on requestList[].categoryID
- *  - subCategoryId    exact match on requestList[].subCategoryID
- *                     (scope is automatically limited to the given categoryId)
- *  - orderId          contains / partial search (case-insensitive)
- *  - minPrice         inclusive lower bound on grade-item price
- *  - maxPrice         inclusive upper bound on grade-item price
- *  - grade            A | B | C | D  – filters items and adds gradeSummary
- */
-
----
-
 ## ตัวอย่าง curl
 
 ### ดึงข้อมูลทั้งหมด
